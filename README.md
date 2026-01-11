@@ -71,10 +71,10 @@ O dashboard apresenta indicadores estratégicos, como:
 
 - 📂 `dados` — Arquivos de dados em CSV e Excel  
 - 📂 `python` — Notebook de análise exploratória  
-  - [`analise_suporte.ipynb`](python/analise_suporte.ipynb)
+  - `analise_suporte.ipynb`
 - 📂 `powerbi` — Arquivo do dashboard Power BI  
   - `dashboard_chamados.pbix`  
-- 📂 `imagens` — Prints do dashboard para visualização rápida
+- 📂 `imagens` — Print do dashboard para visualização rápida
 
 ---
 
