@@ -69,12 +69,13 @@ O dashboard apresenta indicadores estratégicos, como:
 
 ## 📁 Estrutura do Projeto
 
-- 📂 `dados` — Arquivos de dados em CSV e Excel  
-- 📂 `python` — Notebook de análise exploratória  
+- 📂 `dados` — Arquivos de dados em Excel  
+- 📂 `python` — Notebook de análise  
   - `analise_suporte.ipynb`
 - 📂 `powerbi` — Arquivo do dashboard Power BI  
   - `dashboard_chamados.pbix`  
-- 📂 `imagens` — Print do dashboard para visualização rápida
+- 📂 `imagens` — Print do dashboard
+  - `dashboard.png` 
 
 ---
 
