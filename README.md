@@ -40,6 +40,19 @@ Os dados utilizados são simulados, com o objetivo de representar um ambiente re
 
 ---
 
+## 📁 Estrutura do Projeto
+
+- 📂 `dados` — Arquivos de dados em Excel
+  - `chamados_suporte.xlsx`
+- 📂 `python` — Notebook de análise  
+  - `analise_suporte.ipynb`
+- 📂 `powerbi` — Arquivo do dashboard Power BI  
+  - `dashboard_chamados.pbix`  
+- 📂 `imagens` — Print do dashboard
+  - `dashboard.png`
+  
+---
+
 ## 🛠️ Ferramentas Utilizadas
 
 - **Power BI**
@@ -66,17 +79,6 @@ O dashboard apresenta indicadores estratégicos, como:
 - Tempo médio de resolução
 - Percentual de chamados fora do SLA
 - Distribuição por categoria e prioridade
-
-## 📁 Estrutura do Projeto
-
-- 📂 `dados` — Arquivos de dados em Excel
-  - `chamados_suporte.xlsx`
-- 📂 `python` — Notebook de análise  
-  - `analise_suporte.ipynb`
-- 📂 `powerbi` — Arquivo do dashboard Power BI  
-  - `dashboard_chamados.pbix`  
-- 📂 `imagens` — Print do dashboard
-  - `dashboard.png` 
 
 ---
 
