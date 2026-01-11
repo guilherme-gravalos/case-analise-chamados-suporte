@@ -1,3 +1,6 @@
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-4A73A8)
+![Python](https://img.shields.io/badge/Tool-Python-3776AB)
+
 # 📊 Case – Análise de Chamados de Suporte Técnico
 
 Este projeto consiste em um estudo de caso de análise de dados, desenvolvido para fins de portfólio, simulando um cenário real de uma operação de suporte técnico.
