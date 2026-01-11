@@ -23,9 +23,8 @@ O objetivo é demonstrar minhas habilidades práticas em Power BI, SQL e Python,
 
 - Qual é o tempo médio de resolução dos chamados?
 - Quais categorias apresentam maior volume de chamados?
-- Quais prioridades mais estouram o SLA?
+- Qual a porcentagem de chamados fora do tempo estimado pelo SLA?
 - Existem categorias com maior tempo médio de atendimento?
-- Como o desempenho varia ao longo do tempo?
 
 ---
 
