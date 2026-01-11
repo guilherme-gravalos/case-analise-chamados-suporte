@@ -39,7 +39,6 @@ Os dados utilizados são simulados, com o objetivo de representar um ambiente re
 - `tempo_resolucao_horas`
 
 📁 Arquivos disponíveis na pasta `dados/`:
-- `chamados_suporte.csv`
 - `chamados_suporte.xlsx`
 
 ---
@@ -70,7 +69,6 @@ O dashboard apresenta indicadores estratégicos, como:
 - Tempo médio de resolução
 - Percentual de chamados fora do SLA
 - Distribuição por categoria e prioridade
-- Evolução temporal dos chamados
 
 📷 Imagem do dashboard disponível na pasta `imagens/`.
 
@@ -84,14 +82,13 @@ O SQL foi utilizado para aprofundar a análise dos dados e validar padrões obse
 
 #### Chamados com maior tempo de resolução
 ```
-SELECT 
+SELECT TOP 10
     id_chamado,
     categoria,
     prioridade,
     tempo_resolucao_horas
 FROM chamados
 ORDER BY tempo_resolucao_horas DESC
-LIMIT 10;
 ```
 
 Tempo médio de resolução por categoria e prioridade
@@ -102,7 +99,7 @@ SELECT
     ROUND(AVG(tempo_resolucao_horas), 2) AS tempo_medio_resolucao
 FROM chamados
 GROUP BY categoria, prioridade
-ORDER BY tempo_medio_resolucao DESC;
+ORDER BY tempo_medio_resolucao DESC
 ```
 
 Chamados fora do SLA por categoria
@@ -113,5 +110,5 @@ SELECT
 FROM chamados
 WHERE tempo_resolucao_horas > 4
 GROUP BY categoria
-ORDER BY chamados_fora_sla DESC;
+ORDER BY chamados_fora_sla DESC
 ```
