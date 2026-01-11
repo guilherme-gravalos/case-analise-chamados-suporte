@@ -1,3 +1,4 @@
+![SQL](https://img.shields.io/badge/Tool-SQL-3776AB)
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-4A73A8)
 ![Python](https://img.shields.io/badge/Tool-Python-3776AB)
 
