@@ -49,7 +49,7 @@ Os dados utilizados são simulados, com o objetivo de representar um ambiente re
 - 📂 `powerbi` — Arquivo do dashboard Power BI  
   - `dashboard_chamados.pbix`  
 - 📂 `imagens` — Print do dashboard
-  - `dashboard.png`
+  - ![Dashboard Principal](imagens/dashboard_principal.png)
   
 ---
 
