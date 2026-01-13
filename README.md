@@ -93,21 +93,14 @@ O SQL foi utilizado para aprofundar a análise dos dados e validar padrões obse
 
 #### Chamados com maior tempo de resolução
 ```
-SELECT TOP 10
-    id_chamado,
-    categoria,
-    prioridade,
-    tempo_resolucao_horas
+SELECT TOP 10 id_chamado, categoria, prioridade, tempo_resolucao_horas
 FROM chamados
 ORDER BY tempo_resolucao_horas DESC
 ```
 
 Tempo médio de resolução por categoria e prioridade
 ```
-SELECT 
-    categoria,
-    prioridade,
-    ROUND(AVG(tempo_resolucao_horas), 2) AS tempo_medio_resolucao
+SELECT categoria, prioridade, ROUND(AVG(tempo_resolucao_horas), 2) AS [tempo_medio_resolucao]
 FROM chamados
 GROUP BY categoria, prioridade
 ORDER BY tempo_medio_resolucao DESC
@@ -115,9 +108,7 @@ ORDER BY tempo_medio_resolucao DESC
 
 Chamados fora do SLA por categoria
 ```
-SELECT 
-    categoria,
-    COUNT(*) AS chamados_fora_sla
+SELECT categoria, COUNT(*) AS [chamados_fora_sla]
 FROM chamados
 WHERE tempo_resolucao_horas > 4
 GROUP BY categoria
