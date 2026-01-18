@@ -2,7 +2,7 @@
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-4A73A8)
 ![Python](https://img.shields.io/badge/Tool-Python-3776AB)
 
-# 📊 Case – Análise de Chamados de Suporte Técnico
+# Case – Análise de Chamados de Suporte Técnico
 
 Este projeto consiste em um estudo de caso de análise de dados, desenvolvido para fins de portfólio, simulando um cenário real de uma operação de suporte técnico.
 
@@ -10,7 +10,7 @@ O objetivo é demonstrar minhas habilidades práticas em Power BI, SQL e Python,
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 - Analisar o desempenho do atendimento de suporte técnico
 - Identificar gargalos operacionais e pontos de melhoria
@@ -19,7 +19,7 @@ O objetivo é demonstrar minhas habilidades práticas em Power BI, SQL e Python,
 
 ---
 
-## 🧠 Perguntas de Negócio
+## Perguntas de Negócio
 
 - Qual é o tempo médio de resolução dos chamados?
 - Quais categorias apresentam maior volume de chamados?
@@ -28,7 +28,7 @@ O objetivo é demonstrar minhas habilidades práticas em Power BI, SQL e Python,
 
 ---
 
-## 🗂️ Fonte de Dados
+## Fonte de Dados
 
 Os dados utilizados são simulados, com o objetivo de representar um ambiente realista de atendimento de suporte técnico.
 
@@ -43,7 +43,7 @@ Os dados utilizados são simulados, com o objetivo de representar um ambiente re
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 - 📂 `dados` — Arquivos de dados em Excel
   - `chamados_suporte.xlsx`
@@ -56,7 +56,7 @@ Os dados utilizados são simulados, com o objetivo de representar um ambiente re
   
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 - **Power BI**
   - Tratamento de dados
@@ -75,7 +75,7 @@ Os dados utilizados são simulados, com o objetivo de representar um ambiente re
 
 ---
 
-## 📈 Dashboard (Power BI)
+## Dashboard (Power BI)
 
 O dashboard apresenta indicadores estratégicos, como:
 - Total de chamados
@@ -85,7 +85,7 @@ O dashboard apresenta indicadores estratégicos, como:
 
 ---
 
-## 🗄️ Análises Realizadas em SQL
+## Análises Realizadas em SQL
 
 O SQL foi utilizado para aprofundar a análise dos dados e validar padrões observados no dashboard.
 
