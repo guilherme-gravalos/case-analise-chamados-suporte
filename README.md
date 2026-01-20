@@ -28,6 +28,50 @@ O objetivo é demonstrar minhas habilidades práticas em Power BI, SQL e Python,
 
 ---
 
+## Planos de Ação 
+Com base nas análises realizadas, foi identificado que 73,4% dos chamados estão fora do SLA de 4 horas, 
+indicando problemas operacionais e oportunidades claras de melhoria nos processos de suporte.
+
+A partir dos insights obtidos, foi desenvolvido os seguintes planos de ação:
+
+1️⃣ Revisão da Priorização dos Chamados
+
+Problema: Chamados com prioridade baixa e média impactam diretamente o cumprimento do SLA.
+Ação proposta:
+
+- Revisar critérios de classificação de prioridade com base em impacto e urgência
+
+- Implementar regras automáticas de priorização conforme categoria
+
+2️⃣ Atuação Direcionada nas Categorias Críticas
+
+Problema: Algumas categorias concentram os maiores tempos médios de resolução.
+Ação proposta:
+
+- Foco nas categorias com maior impacto no SLA
+
+- Criação de procedimentos padronizados e base de conhecimento
+
+3️⃣ Balanceamento da Carga de Atendimento
+
+Problema: Possível sobrecarga ou má distribuição de chamados entre analistas, 
+impactanto diretamente no tempo de resolução dos chamados.
+Ação proposta:
+
+- Redistribuição de chamados considerando complexidade e especialização
+
+- Monitoramento do backlog diário
+
+4️⃣ Controle Preventivo de SLA
+
+Problema: Ausência de monitoramento proativo que resulta na detecção tardia de chamados próximos ao vencimento do SLA.
+Ação proposta:
+
+- Criação de alertas para chamados próximos do vencimento do SLA
+
+- Uso de dashboards operacionais para acompanhamento em tempo real
+---
+
 ## Fonte de Dados
 
 Os dados utilizados são simulados, com o objetivo de representar um ambiente realista de atendimento de suporte técnico.
