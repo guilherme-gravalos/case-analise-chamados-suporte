@@ -32,7 +32,7 @@ O objetivo é demonstrar minhas habilidades práticas em Power BI, SQL e Python,
 Com base nas análises realizadas, foi identificado que 73,4% dos chamados estão fora do SLA de 4 horas, 
 indicando problemas operacionais e oportunidades claras de melhoria nos processos de suporte.
 
-A partir dos insights obtidos, foi desenvolvido os seguintes planos de ação:
+A partir dos insights obtidos, foram desenvolvidos os seguintes planos de ação:
 
 1️⃣ Revisão da Priorização dos Chamados
 
